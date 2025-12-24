@@ -1,5 +1,6 @@
 import 'package:board_app/core/theme.dart';
 import 'package:board_app/ui/home_page.dart';
+import 'package:board_app/ui/write_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class BoardApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: BoardTheme.theme,
       darkTheme: BoardTheme.darktheme,
-      home: HomePage(),
+      home: WritePage(),
     );
   }
 }
