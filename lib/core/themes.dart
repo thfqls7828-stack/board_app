@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 
-class BoardTheme extends Theme {
-  const BoardTheme({super.key, required super.data, required super.child});
-
+class BoardTheme {
   static ThemeData theme = ThemeData(
     useMaterial3: true,
-
     appBarTheme: AppBarThemeData(
       actionsPadding: EdgeInsets.only(right: 10),
       centerTitle: true,
@@ -25,12 +22,13 @@ class BoardTheme extends Theme {
     fontFamily: "CustomFont",
   );
 
-  static ThemeData darktheme = ThemeData(
+  static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     appBarTheme: AppBarThemeData(
       actionsPadding: EdgeInsets.only(right: 10),
       centerTitle: true,
       foregroundColor: Colors.black,
+      backgroundColor: Colors.grey,
     ),
     colorScheme: ColorScheme.fromSeed(
       brightness: Brightness.dark,
