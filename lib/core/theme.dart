@@ -16,7 +16,7 @@ class BoardTheme extends Theme {
     colorScheme: ColorScheme.fromSeed(
       brightness: Brightness.light,
       seedColor: Colors.blue,
-      primary: Colors.lightBlue,
+      primary: Colors.amber,
       surface: Colors.white,
     ),
 
